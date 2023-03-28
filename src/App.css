@@ -1,0 +1,147 @@
+
+.App{
+  background-image: url(" https://img.freepik.com/premium-photo/small-shopping-cart-color_151349-1233.jpg?w=1060");
+  background-attachment: fixed;
+}
+ 
+.column{
+  
+  border: 2px solid black;
+  margin-top: 30px;
+  box-shadow: 5px gray;
+  margin: 10px;
+  text-decoration: none;
+  background-color:  white;
+ 
+
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    
+}
+#product{
+  margin-top: 75px;
+}
+.site_heading{
+  padding-left: 15px;
+  position: fixed;
+  width: 100%;
+  background-color: bisque;
+  top: 0%;
+  margin: 0px;
+}
+.btn{
+  margin-right: 50px;
+  float:right;
+  width: 100px;
+  height: 30px;
+  border: 1px solid gray;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+
+a{
+  text-decoration: none;
+}
+.meta{
+  padding: 5px;
+  color: black;
+  margin-top: 10px;
+}
+
+.card{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.column:hover{
+  /* box-shadow: 10px 10px 2px 10px gray; */
+  box-shadow: 0 10px 0px 9px rgba(0, 0, 0, 0.5);
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.aligned{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80vh;
+  width: 90vw;
+}
+.segment{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fluid_image{
+   width: 30vw;
+   height: 30vw;
+}
+.lp{
+   width: 30vw;
+   height: 30vw;
+}
+.animated {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.rp{
+  padding: 15px;
+}
+.ani_button{
+  background-color: rgb(228, 107, 91);
+  width:  120px;
+  height:  30px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.ani_button:hover{
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2838/2838838.png");
+}
+ 
+ 
+ 
+
+
+@media only screen and (max-width: 449px){  
+  #product{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 699px){  
+  #product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 915px){  
+  #product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media only screen and (min-width: 916px){  
+  #product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   }
+}
+
+
+
+
